@@ -798,15 +798,6 @@ arrayList.length = 0;
 console.log(anotherArrayList); // []
 ```
 
-Существующий массив очистится, так же как и все ссылки на него.
-
-```js
-let arrayList = ['a', 'b', 'c', 'd', 'e', 'f'];
-let anotherArrayList = arrayList;
-arrayList.length = 0;
-console.log(anotherArrayList); // []
-```
-
 - Вырезать лишние элементы
 
 ```js
